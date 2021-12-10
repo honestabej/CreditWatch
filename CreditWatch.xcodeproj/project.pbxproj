@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		260655F827627E1F0009E967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260655F727627E1F0009E967 /* AppDelegate.swift */; };
 		260655FA27627E1F0009E967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260655F927627E1F0009E967 /* SceneDelegate.swift */; };
-		260655FC27627E1F0009E967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260655FB27627E1F0009E967 /* ViewController.swift */; };
+		260655FC27627E1F0009E967 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260655FB27627E1F0009E967 /* LoginVC.swift */; };
 		260655FF27627E1F0009E967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260655FD27627E1F0009E967 /* Main.storyboard */; };
 		2606560227627E1F0009E967 /* CreditWatch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2606560027627E1F0009E967 /* CreditWatch.xcdatamodeld */; };
 		2606560427627E210009E967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2606560327627E210009E967 /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 		260655F427627E1F0009E967 /* CreditWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		260655F727627E1F0009E967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		260655F927627E1F0009E967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		260655FB27627E1F0009E967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		260655FB27627E1F0009E967 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		260655FE27627E1F0009E967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2606560127627E1F0009E967 /* CreditWatch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreditWatch.xcdatamodel; sourceTree = "<group>"; };
 		2606560327627E210009E967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +81,9 @@
 		260655EB27627E1F0009E967 = {
 			isa = PBXGroup;
 			children = (
+				2606562C2762EDFC0009E967 /* Controller */,
+				2606562B2762EDF40009E967 /* View */,
+				2606562A2762EDE40009E967 /* Model */,
 				260655F627627E1F0009E967 /* CreditWatch */,
 				2606561027627E210009E967 /* CreditWatchTests */,
 				2606561A27627E210009E967 /* CreditWatchUITests */,
@@ -103,7 +106,6 @@
 			children = (
 				260655F727627E1F0009E967 /* AppDelegate.swift */,
 				260655F927627E1F0009E967 /* SceneDelegate.swift */,
-				260655FB27627E1F0009E967 /* ViewController.swift */,
 				260655FD27627E1F0009E967 /* Main.storyboard */,
 				2606560327627E210009E967 /* Assets.xcassets */,
 				2606560527627E210009E967 /* LaunchScreen.storyboard */,
@@ -128,6 +130,28 @@
 				2606561D27627E210009E967 /* CreditWatchUITestsLaunchTests.swift */,
 			);
 			path = CreditWatchUITests;
+			sourceTree = "<group>";
+		};
+		2606562A2762EDE40009E967 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2606562B2762EDF40009E967 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2606562C2762EDFC0009E967 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				260655FB27627E1F0009E967 /* LoginVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				260655FC27627E1F0009E967 /* ViewController.swift in Sources */,
+				260655FC27627E1F0009E967 /* LoginVC.swift in Sources */,
 				260655F827627E1F0009E967 /* AppDelegate.swift in Sources */,
 				2606560227627E1F0009E967 /* CreditWatch.xcdatamodeld in Sources */,
 				260655FA27627E1F0009E967 /* SceneDelegate.swift in Sources */,

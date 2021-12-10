@@ -17,6 +17,20 @@
 		2606561227627E210009E967 /* CreditWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606561127627E210009E967 /* CreditWatchTests.swift */; };
 		2606561C27627E210009E967 /* CreditWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606561B27627E210009E967 /* CreditWatchUITests.swift */; };
 		2606561E27627E210009E967 /* CreditWatchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606561D27627E210009E967 /* CreditWatchUITestsLaunchTests.swift */; };
+		2606562E2763BFA00009E967 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606562D2763BFA00009E967 /* RegisterVC.swift */; };
+		260656302763BFE20009E967 /* CreditCardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606562F2763BFE20009E967 /* CreditCardsVC.swift */; };
+		260656322763BFF40009E967 /* StatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260656312763BFF40009E967 /* StatsVC.swift */; };
+		260656342763C0020009E967 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260656332763C0020009E967 /* SettingsVC.swift */; };
+		260656362763C0150009E967 /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260656352763C0150009E967 /* TransactionsVC.swift */; };
+		260656382763C0260009E967 /* AddTransactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260656372763C0260009E967 /* AddTransactionVC.swift */; };
+		2606563A2763C04E0009E967 /* CreditCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260656392763C04E0009E967 /* CreditCardVC.swift */; };
+		2606563C2763C0660009E967 /* PeriodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606563B2763C0660009E967 /* PeriodVC.swift */; };
+		2606563E2763C0880009E967 /* AddCreditCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606563D2763C0880009E967 /* AddCreditCardVC.swift */; };
+		260656402763C09F0009E967 /* BankAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2606563F2763C09E0009E967 /* BankAccountVC.swift */; };
+		260656422763C0B00009E967 /* AddBankAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260656412763C0B00009E967 /* AddBankAccountVC.swift */; };
+		260656442763C2880009E967 /* SQLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260656432763C2880009E967 /* SQLManager.swift */; };
+		260656462763C2FD0009E967 /* SQL-config.sql in Resources */ = {isa = PBXBuildFile; fileRef = 260656452763C2FD0009E967 /* SQL-config.sql */; };
+		260656482763C51D0009E967 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260656472763C51D0009E967 /* TabBarVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,20 @@
 		2606561727627E210009E967 /* CreditWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreditWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2606561B27627E210009E967 /* CreditWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditWatchUITests.swift; sourceTree = "<group>"; };
 		2606561D27627E210009E967 /* CreditWatchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditWatchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2606562D2763BFA00009E967 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		2606562F2763BFE20009E967 /* CreditCardsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsVC.swift; sourceTree = "<group>"; };
+		260656312763BFF40009E967 /* StatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsVC.swift; sourceTree = "<group>"; };
+		260656332763C0020009E967 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		260656352763C0150009E967 /* TransactionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
+		260656372763C0260009E967 /* AddTransactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionVC.swift; sourceTree = "<group>"; };
+		260656392763C04E0009E967 /* CreditCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardVC.swift; sourceTree = "<group>"; };
+		2606563B2763C0660009E967 /* PeriodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodVC.swift; sourceTree = "<group>"; };
+		2606563D2763C0880009E967 /* AddCreditCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCreditCardVC.swift; sourceTree = "<group>"; };
+		2606563F2763C09E0009E967 /* BankAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountVC.swift; sourceTree = "<group>"; };
+		260656412763C0B00009E967 /* AddBankAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBankAccountVC.swift; sourceTree = "<group>"; };
+		260656432763C2880009E967 /* SQLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLManager.swift; sourceTree = "<group>"; };
+		260656452763C2FD0009E967 /* SQL-config.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SQL-config.sql"; sourceTree = "<group>"; };
+		260656472763C51D0009E967 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +132,11 @@
 		260655F627627E1F0009E967 /* CreditWatch */ = {
 			isa = PBXGroup;
 			children = (
+				260655FD27627E1F0009E967 /* Main.storyboard */,
+				2606560527627E210009E967 /* LaunchScreen.storyboard */,
 				260655F727627E1F0009E967 /* AppDelegate.swift */,
 				260655F927627E1F0009E967 /* SceneDelegate.swift */,
-				260655FD27627E1F0009E967 /* Main.storyboard */,
 				2606560327627E210009E967 /* Assets.xcassets */,
-				2606560527627E210009E967 /* LaunchScreen.storyboard */,
 				2606560827627E210009E967 /* Info.plist */,
 				2606560027627E1F0009E967 /* CreditWatch.xcdatamodeld */,
 			);
@@ -135,6 +163,8 @@
 		2606562A2762EDE40009E967 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				260656432763C2880009E967 /* SQLManager.swift */,
+				260656452763C2FD0009E967 /* SQL-config.sql */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -142,6 +172,19 @@
 		2606562B2762EDF40009E967 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				260655FB27627E1F0009E967 /* LoginVC.swift */,
+				2606562D2763BFA00009E967 /* RegisterVC.swift */,
+				260656472763C51D0009E967 /* TabBarVC.swift */,
+				2606563B2763C0660009E967 /* PeriodVC.swift */,
+				260656352763C0150009E967 /* TransactionsVC.swift */,
+				260656372763C0260009E967 /* AddTransactionVC.swift */,
+				2606562F2763BFE20009E967 /* CreditCardsVC.swift */,
+				260656392763C04E0009E967 /* CreditCardVC.swift */,
+				2606563D2763C0880009E967 /* AddCreditCardVC.swift */,
+				2606563F2763C09E0009E967 /* BankAccountVC.swift */,
+				260656312763BFF40009E967 /* StatsVC.swift */,
+				260656332763C0020009E967 /* SettingsVC.swift */,
+				260656412763C0B00009E967 /* AddBankAccountVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,7 +192,6 @@
 		2606562C2762EDFC0009E967 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				260655FB27627E1F0009E967 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,6 +303,7 @@
 				2606560727627E210009E967 /* LaunchScreen.storyboard in Resources */,
 				2606560427627E210009E967 /* Assets.xcassets in Resources */,
 				260655FF27627E1F0009E967 /* Main.storyboard in Resources */,
+				260656462763C2FD0009E967 /* SQL-config.sql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,10 +328,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260656402763C09F0009E967 /* BankAccountVC.swift in Sources */,
+				260656422763C0B00009E967 /* AddBankAccountVC.swift in Sources */,
 				260655FC27627E1F0009E967 /* LoginVC.swift in Sources */,
+				260656302763BFE20009E967 /* CreditCardsVC.swift in Sources */,
 				260655F827627E1F0009E967 /* AppDelegate.swift in Sources */,
+				2606563A2763C04E0009E967 /* CreditCardVC.swift in Sources */,
+				260656442763C2880009E967 /* SQLManager.swift in Sources */,
 				2606560227627E1F0009E967 /* CreditWatch.xcdatamodeld in Sources */,
+				2606563C2763C0660009E967 /* PeriodVC.swift in Sources */,
 				260655FA27627E1F0009E967 /* SceneDelegate.swift in Sources */,
+				260656382763C0260009E967 /* AddTransactionVC.swift in Sources */,
+				260656342763C0020009E967 /* SettingsVC.swift in Sources */,
+				260656362763C0150009E967 /* TransactionsVC.swift in Sources */,
+				2606563E2763C0880009E967 /* AddCreditCardVC.swift in Sources */,
+				260656482763C51D0009E967 /* TabBarVC.swift in Sources */,
+				260656322763BFF40009E967 /* StatsVC.swift in Sources */,
+				2606562E2763BFA00009E967 /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

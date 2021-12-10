@@ -18,12 +18,240 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="8SG-rx-8ns" kind="show" identifier="ToRegisterVC" id="5et-un-g2f"/>
+                        <segue destination="dpe-SU-5K2" kind="show" identifier="ToTabBarVC" id="IPj-aF-Zgo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="20" y="98"/>
+            <point key="canvasLocation" x="-58" y="165"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="74N-DD-Dx6">
+            <objects>
+                <viewController id="fAB-eB-0TG" customClass="PeriodVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0e6-0z-dKJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="KdF-CL-qyT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="2rl-X7-iPE"/>
+                    <connections>
+                        <segue destination="n4n-nj-vBg" kind="show" identifier="ToTransactionVC" id="ba4-hx-2yL"/>
+                        <segue destination="FrG-zt-Wa7" kind="show" identifier="ToAddTransactionVC" id="q2I-nk-9U2"/>
+                        <segue destination="Iy7-ey-I2y" kind="show" identifier="ToCreditCardVC" id="jA7-WA-bOz"/>
+                        <segue destination="4T3-r9-4Bm" kind="show" identifier="ToBankAccountVC" id="9Fr-6f-nMb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g6e-Hf-veO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1952" y="1655"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="xtz-Mo-ohb">
+            <objects>
+                <viewController id="NaZ-tu-ycU" customClass="CreditCardsVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cAo-mP-JFf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="txY-hv-yKO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Po3-Lv-IyF"/>
+                    <connections>
+                        <segue destination="Iy7-ey-I2y" kind="show" identifier="ToCreditCardVC" id="xVJ-5C-Qa9"/>
+                        <segue destination="UNn-g3-rPA" kind="show" identifier="ToAddCreditCardVC" id="wam-rc-vIl"/>
+                        <segue destination="FrG-zt-Wa7" kind="show" identifier="ToAddTransactionVC" id="0Lr-45-ehz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iZ6-H7-cD9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-519" y="1655"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GGG-Ln-2ai">
+            <objects>
+                <tabBarController id="dpe-SU-5K2" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="lzf-O2-a6l"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SUG-vZ-CMa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="NaZ-tu-ycU" kind="relationship" relationship="viewControllers" id="OWN-ZM-y7z"/>
+                        <segue destination="fAB-eB-0TG" kind="relationship" relationship="viewControllers" id="nVH-ge-aFv"/>
+                        <segue destination="k6j-Ky-LeD" kind="relationship" relationship="viewControllers" id="dEo-3M-cc5"/>
+                        <segue destination="Qiq-EK-TIT" kind="relationship" relationship="viewControllers" id="7iE-mz-ASC"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XoR-Lh-2eb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-59" y="926"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="4r9-nf-EZJ">
+            <objects>
+                <viewController id="k6j-Ky-LeD" customClass="StatsVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TXn-U9-Td2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DGx-AS-Zkt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="oFC-oH-Icr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2A-TS-Ps3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="433" y="1655"/>
+        </scene>
+        <!--RegisterVC-->
+        <scene sceneID="DeW-ck-Q0U">
+            <objects>
+                <viewController id="8SG-rx-8ns" customClass="RegisterVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lGp-r1-RAI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="tAp-oo-s1r"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="81w-2u-rsb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6La-PT-pg2" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="814" y="165"/>
+        </scene>
+        <!--TransactionsVC-->
+        <scene sceneID="BiZ-bS-m9i">
+            <objects>
+                <viewController id="n4n-nj-vBg" customClass="TransactionsVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="762-Ch-SE1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Q0O-mk-ztU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5jj-zC-UpV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8gd-rl-Gcp" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2407" y="2384"/>
+        </scene>
+        <!--Credit CardVC-->
+        <scene sceneID="5kl-PW-1ck">
+            <objects>
+                <viewController id="Iy7-ey-I2y" customClass="CreditCardVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ofl-R9-tye">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7HA-Sn-pSb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0tH-uu-9iu"/>
+                    <connections>
+                        <segue destination="4T3-r9-4Bm" kind="show" identifier="ToBankAccountVC" id="7pR-LB-3eN"/>
+                        <segue destination="yvp-K6-OFU" kind="show" identifier="ToAddBankAccountVC" id="Q76-hO-U4k"/>
+                        <segue destination="FrG-zt-Wa7" kind="show" identifier="ToAddTransactionVC" id="UZV-JY-GuZ"/>
+                        <segue destination="n4n-nj-vBg" kind="show" identifier="ToTransactionsVC" id="XVy-t6-1zB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G61-q7-4lT" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-520" y="2384"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="0rJ-74-1Of">
+            <objects>
+                <viewController id="Qiq-EK-TIT" customClass="SettingsVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ALM-Cf-6Pi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6xW-YT-uQZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="yjv-yW-hCi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VbO-un-Ot0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1371" y="1655"/>
+        </scene>
+        <!--Add TransactionVC-->
+        <scene sceneID="OOD-W9-McG">
+            <objects>
+                <viewController id="FrG-zt-Wa7" customClass="AddTransactionVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IVh-Oe-Nbc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4Rg-dh-arJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oXP-YQ-G1F"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EZH-lD-7l3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1500" y="2384"/>
+        </scene>
+        <!--Bank AccountVC-->
+        <scene sceneID="gH6-7H-j2e">
+            <objects>
+                <viewController id="4T3-r9-4Bm" customClass="BankAccountVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EGn-Yr-nte">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="KSl-BS-xxX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OfI-aX-oGU"/>
+                    <connections>
+                        <segue destination="FrG-zt-Wa7" kind="show" identifier="ToAddTransactionVC" id="WUO-3r-mxN"/>
+                        <segue destination="n4n-nj-vBg" kind="show" identifier="ToTransactionsVC" id="FlI-PI-Te9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GPs-JL-ufw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-520" y="3260"/>
+        </scene>
+        <!--Add Credit CardVC-->
+        <scene sceneID="3yf-R4-chP">
+            <objects>
+                <viewController id="UNn-g3-rPA" customClass="AddCreditCardVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rGc-Gx-XYi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Kcw-Ic-39O"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xoi-E2-MKp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9uA-jL-vt5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="435" y="2384"/>
+        </scene>
+        <!--Add Bank AccountVC-->
+        <scene sceneID="DTH-Ic-cXk">
+            <objects>
+                <viewController id="yvp-K6-OFU" customClass="AddBankAccountVC" customModule="CreditWatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q62-Q6-Vdu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ra9-3K-E9a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yfD-Gv-pbS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fn1-La-kky" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="436" y="3260"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="7pR-LB-3eN"/>
+        <segue reference="WUO-3r-mxN"/>
+        <segue reference="jA7-WA-bOz"/>
+        <segue reference="FlI-PI-Te9"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
